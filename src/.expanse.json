@@ -32,8 +32,9 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
           "headset": "disabled"
         }
       },
@@ -44,14 +45,14 @@
       "name": "Camera",
       "position": [
         0,
-        2,
+        1.26,
         3
       ],
       "rotation": [
-        0.0004436887233141012,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        0,
+        0,
+        0,
+        1
       ],
       "scale": [
         1,
@@ -93,9 +94,9 @@
     "cc7146da-b009-41ee-9f18-827c3478e611": {
       "id": "cc7146da-b009-41ee-9f18-827c3478e611",
       "position": [
-        -0.8234464072837918,
-        0,
-        -0.4145448120496402
+        -0.22,
+        -0.5,
+        0.05
       ],
       "rotation": [
         0,
@@ -104,22 +105,23 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.3,
+        0.3,
+        0.3
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
       "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
           "asset": "assets/model.glb"
         },
-        "animationClip": "",
+        "animationClip": "mixamo.com",
         "loop": true
       },
+<<<<<<< HEAD
       "name": "model.glb",
       "order": 2.730632276484772
     },
@@ -129,6 +131,19 @@
         0,
         0.5050774897352348,
         0
+=======
+      "name": "Avatar",
+      "order": 0
+    },
+    "21c606ba-4129-47b0-bca5-9dc698b62e8f": {
+      "id": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "name": "Tarjeta (marcador)",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "position": [
+        0,
+        1.51,
+        -1.87
+>>>>>>> 5c4106f3956877cb28fa49f5c222699c4f220f96
       ],
       "rotation": [
         0,
@@ -137,6 +152,7 @@
         1
       ],
       "scale": [
+<<<<<<< HEAD
         1,
         1,
         1
@@ -150,6 +166,310 @@
         "name": "bote"
       },
       "order": 4.452613807178687
+=======
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "order": 3,
+      "imageTarget": {
+        "name": "Tarjeta"
+      }
+    },
+    "88c0a675-03f0-4712-aba2-24c4cef46b30": {
+      "id": "88c0a675-03f0-4712-aba2-24c4cef46b30",
+      "name": "Video chroma",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.12,
+        0.05,
+        0.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Panda_Chroma.mp4"
+        },
+        "transparent": true
+      },
+      "components": {
+        "de0b4c5d-17c0-449e-b35a-e9e8e1e56557": {
+          "id": "de0b4c5d-17c0-449e-b35a-e9e8e1e56557",
+          "name": "Chroma Key",
+          "parameters": {
+            "enabled": true,
+            "keyRed": 4,
+            "keyGreen": 255,
+            "keyBlue": 0,
+            "tolerance": 0.12
+          }
+        },
+        "5f7fa9f2-4803-471a-a152-98ba4f8f1163": {
+          "id": "5f7fa9f2-4803-471a-a152-98ba4f8f1163",
+          "name": "Video Toggle Button",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "88c0a675-03f0-4712-aba2-24c4cef46b30"
+            },
+            "playIcon": {
+              "type": "entity",
+              "id": "6982cb5b-8f9b-4096-845b-00f852e07581"
+            },
+            "playOnTargetFound": true,
+            "pauseOnTargetLost": true
+          }
+        }
+      },
+      "order": 1,
+      "videoControls": {
+        "loop": true,
+        "paused": true,
+        "volume": 1
+      }
+    },
+    "6982cb5b-8f9b-4096-845b-00f852e07581": {
+      "id": "6982cb5b-8f9b-4096-845b-00f852e07581",
+      "name": "Ícono play",
+      "parentId": "88c0a675-03f0-4712-aba2-24c4cef46b30",
+      "position": [
+        0,
+        0,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/play.svg"
+        },
+        "transparent": true
+      },
+      "components": {},
+      "order": 0
+    },
+    "5dfb21b2-6cb7-488f-a948-c8244ddde410": {
+      "id": "5dfb21b2-6cb7-488f-a948-c8244ddde410",
+      "name": "Mi Instagram",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        -0.25,
+        0.62,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn-ig-isa.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "ce5b7614-ee87-4f37-a655-28904b5e8364": {
+          "id": "ce5b7614-ee87-4f37-a655-28904b5e8364",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://www.instagram.com/isa_cd23/",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 2
+    },
+    "59b0ecb3-c591-4557-a1b9-831712559a7c": {
+      "id": "59b0ecb3-c591-4557-a1b9-831712559a7c",
+      "name": "Instagram Taka",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.0,
+        0.62,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn-ig-taka.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "c6fb9839-cd69-4803-a333-78fea24c3f2d": {
+          "id": "c6fb9839-cd69-4803-a333-78fea24c3f2d",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://www.instagram.com/taka_col/",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 3
+    },
+    "53da1d76-710c-4a77-94a9-dce79f7ef80b": {
+      "id": "53da1d76-710c-4a77-94a9-dce79f7ef80b",
+      "name": "TikTok Taka",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.25,
+        0.62,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/btn-tiktok-taka.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "c9ea8702-c306-4792-ac60-ef3cf019fe63": {
+          "id": "c9ea8702-c306-4792-ac60-ef3cf019fe63",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://www.tiktok.com/@takaa_col",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 4
+    },
+    "ffa1ee7f-94d1-4c17-9a0b-7ad53c2be7c4": {
+      "id": "ffa1ee7f-94d1-4c17-9a0b-7ad53c2be7c4",
+      "name": "WhatsApp 3D",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.28,
+        -0.42,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "45c00ccc-a10e-4ee9-9070-59441f87c1c8": {
+          "id": "45c00ccc-a10e-4ee9-9070-59441f87c1c8",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://wa.me/573192545506",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 5,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Whatssap3D.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      }
+>>>>>>> 5c4106f3956877cb28fa49f5c222699c4f220f96
     }
   },
   "spaces": {
