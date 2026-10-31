@@ -34,11 +34,8 @@
         "xr": {
           "xrCameraType": "world",
           "phone": "AR",
-          "desktop": "3D",
-          "headset": "disabled",
-          "world": {
-            "scale": "responsive"
-          }
+          "desktop": "disabled",
+          "headset": "disabled"
         }
       },
       "components": {},
@@ -48,8 +45,8 @@
       "name": "Camera",
       "position": [
         0,
-        1.6,
-        0
+        1.26,
+        3
       ],
       "rotation": [
         0,
@@ -97,9 +94,9 @@
     "cc7146da-b009-41ee-9f18-827c3478e611": {
       "id": "cc7146da-b009-41ee-9f18-827c3478e611",
       "position": [
-        0,
-        0,
-        -2.5
+        -0.22,
+        -0.5,
+        0.05
       ],
       "rotation": [
         0,
@@ -108,20 +105,14 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.3,
+        0.3,
+        0.3
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {
-        "0447088d-3dd8-4d79-b66c-ee56c60f97e9": {
-          "id": "0447088d-3dd8-4d79-b66c-ee56c60f97e9",
-          "name": "avatar-tap",
-          "parameters": {}
-        }
-      },
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -131,146 +122,16 @@
         "loop": true
       },
       "name": "Avatar",
-      "order": 2.730632276484772,
-      "collider": {
-        "type": "static",
-        "geometry": {
-          "type": "auto"
-        },
-        "eventOnly": true
-      }
-    },
-    "16d6e90b-537d-4eaa-978a-c97317b9f2f4": {
-      "id": "16d6e90b-537d-4eaa-978a-c97317b9f2f4",
-      "name": "Nombre",
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "type": "overlay",
-        "top": "24px",
-        "left": "5%",
-        "width": "90%",
-        "height": "56px",
-        "background": "#1b1033",
-        "backgroundOpacity": 0.75,
-        "borderRadius": 16,
-        "color": "#ffffff",
-        "text": "Isabela Cortés Dávila",
-        "fontSize": 22,
-        "textAlign": "center",
-        "verticalTextAlign": "center"
-      },
-      "order": 5
-    },
-    "e7951ea3-f92c-4644-a540-d62fdede81ca": {
-      "id": "e7951ea3-f92c-4644-a540-d62fdede81ca",
-      "name": "Botones",
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {},
-      "ui": {
-        "type": "overlay",
-        "bottom": "32px",
-        "left": "5%",
-        "width": "90%",
-        "height": "56px",
-        "display": "flex",
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "gap": "10px",
-        "backgroundOpacity": 0
-      },
-      "order": 6
-    },
-    "2c25c0e2-6802-4874-9e56-74bcad349e1f": {
-      "id": "2c25c0e2-6802-4874-9e56-74bcad349e1f",
-      "name": "Botón Instagram",
-      "parentId": "e7951ea3-f92c-4644-a540-d62fdede81ca",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "components": {
-        "64257dfa-76fd-4bf0-8fd4-efcbdabd891e": {
-          "id": "64257dfa-76fd-4bf0-8fd4-efcbdabd891e",
-          "name": "open-url-button",
-          "parameters": {
-            "url": "https://www.instagram.com/"
-          }
-        }
-      },
-      "ui": {
-        "type": "overlay",
-        "width": "31%",
-        "height": "56px",
-        "background": "#7611b6",
-        "backgroundOpacity": 1,
-        "borderRadius": 28,
-        "color": "#ffffff",
-        "text": "Instagram",
-        "fontSize": 16,
-        "textAlign": "center",
-        "verticalTextAlign": "center"
-      },
       "order": 0
     },
-    "6ececcb4-59c3-49ee-ae10-351608ac1771": {
-      "id": "6ececcb4-59c3-49ee-ae10-351608ac1771",
-      "name": "Botón Portafolio",
-      "parentId": "e7951ea3-f92c-4644-a540-d62fdede81ca",
+    "21c606ba-4129-47b0-bca5-9dc698b62e8f": {
+      "id": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "name": "Tarjeta (marcador)",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "position": [
         0,
-        0,
-        0
+        1.51,
+        -1.87
       ],
       "rotation": [
         0,
@@ -279,44 +140,26 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        3,
+        3,
+        3
       ],
       "geometry": null,
       "material": null,
-      "components": {
-        "0ba3fe22-cb61-440a-ba84-8cb7ade6478d": {
-          "id": "0ba3fe22-cb61-440a-ba84-8cb7ade6478d",
-          "name": "open-url-button",
-          "parameters": {
-            "url": "https://www.behance.net/"
-          }
-        }
-      },
-      "ui": {
-        "type": "overlay",
-        "width": "31%",
-        "height": "56px",
-        "background": "#7611b6",
-        "backgroundOpacity": 1,
-        "borderRadius": 28,
-        "color": "#ffffff",
-        "text": "Portafolio",
-        "fontSize": 16,
-        "textAlign": "center",
-        "verticalTextAlign": "center"
-      },
-      "order": 1
+      "components": {},
+      "order": 3,
+      "imageTarget": {
+        "name": "Tarjeta"
+      }
     },
-    "ecf2fde6-1a13-4d11-a873-8f162e42f6b3": {
-      "id": "ecf2fde6-1a13-4d11-a873-8f162e42f6b3",
-      "name": "Botón WhatsApp",
-      "parentId": "e7951ea3-f92c-4644-a540-d62fdede81ca",
+    "88c0a675-03f0-4712-aba2-24c4cef46b30": {
+      "id": "88c0a675-03f0-4712-aba2-24c4cef46b30",
+      "name": "Video chroma",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
       "position": [
-        0,
-        0,
-        0
+        0.12,
+        0.05,
+        0.08
       ],
       "rotation": [
         0,
@@ -325,35 +168,280 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.5,
+        0.5,
+        0.5
       ],
-      "geometry": null,
-      "material": null,
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Panda_Chroma.mp4"
+        },
+        "transparent": true
+      },
       "components": {
-        "6e31592d-d453-4d35-9c28-f32a1fb7cf71": {
-          "id": "6e31592d-d453-4d35-9c28-f32a1fb7cf71",
-          "name": "open-url-button",
+        "de0b4c5d-17c0-449e-b35a-e9e8e1e56557": {
+          "id": "de0b4c5d-17c0-449e-b35a-e9e8e1e56557",
+          "name": "Chroma Key",
           "parameters": {
-            "url": "https://wa.me/"
+            "enabled": true,
+            "keyRed": 4,
+            "keyGreen": 255,
+            "keyBlue": 0,
+            "tolerance": 0.12
+          }
+        },
+        "5f7fa9f2-4803-471a-a152-98ba4f8f1163": {
+          "id": "5f7fa9f2-4803-471a-a152-98ba4f8f1163",
+          "name": "Video Toggle Button",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "88c0a675-03f0-4712-aba2-24c4cef46b30"
+            },
+            "playIcon": {
+              "type": "entity",
+              "id": "6982cb5b-8f9b-4096-845b-00f852e07581"
+            },
+            "playOnTargetFound": true,
+            "pauseOnTargetLost": true
           }
         }
       },
-      "ui": {
-        "type": "overlay",
-        "width": "31%",
-        "height": "56px",
-        "background": "#7611b6",
-        "backgroundOpacity": 1,
-        "borderRadius": 28,
-        "color": "#ffffff",
-        "text": "WhatsApp",
-        "fontSize": 16,
-        "textAlign": "center",
-        "verticalTextAlign": "center"
+      "order": 1,
+      "videoControls": {
+        "loop": true,
+        "paused": true,
+        "volume": 1
+      }
+    },
+    "6982cb5b-8f9b-4096-845b-00f852e07581": {
+      "id": "6982cb5b-8f9b-4096-845b-00f852e07581",
+      "name": "Ícono play",
+      "parentId": "88c0a675-03f0-4712-aba2-24c4cef46b30",
+      "position": [
+        0,
+        0,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/play.svg"
+        },
+        "transparent": true
+      },
+      "components": {},
+      "order": 0
+    },
+    "5dfb21b2-6cb7-488f-a948-c8244ddde410": {
+      "id": "5dfb21b2-6cb7-488f-a948-c8244ddde410",
+      "name": "Ícono Instagram",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        -0.25,
+        0.62,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "social.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "ce5b7614-ee87-4f37-a655-28904b5e8364": {
+          "id": "ce5b7614-ee87-4f37-a655-28904b5e8364",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://www.instagram.com/",
+            "openInNewTab": true
+          }
+        }
       },
       "order": 2
+    },
+    "59b0ecb3-c591-4557-a1b9-831712559a7c": {
+      "id": "59b0ecb3-c591-4557-a1b9-831712559a7c",
+      "name": "Ícono Portafolio",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.0,
+        0.62,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "portfolio.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "c6fb9839-cd69-4803-a333-78fea24c3f2d": {
+          "id": "c6fb9839-cd69-4803-a333-78fea24c3f2d",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://www.behance.net/",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 3
+    },
+    "53da1d76-710c-4a77-94a9-dce79f7ef80b": {
+      "id": "53da1d76-710c-4a77-94a9-dce79f7ef80b",
+      "name": "Ícono LinkedIn",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.25,
+        0.62,
+        0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "linkedin.png"
+        },
+        "transparent": true
+      },
+      "components": {
+        "c9ea8702-c306-4792-ac60-ef3cf019fe63": {
+          "id": "c9ea8702-c306-4792-ac60-ef3cf019fe63",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://www.linkedin.com/",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 4
+    },
+    "ffa1ee7f-94d1-4c17-9a0b-7ad53c2be7c4": {
+      "id": "ffa1ee7f-94d1-4c17-9a0b-7ad53c2be7c4",
+      "name": "WhatsApp 3D",
+      "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
+      "position": [
+        0.28,
+        -0.42,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "45c00ccc-a10e-4ee9-9070-59441f87c1c8": {
+          "id": "45c00ccc-a10e-4ee9-9070-59441f87c1c8",
+          "name": "Open URL 3D Object",
+          "parameters": {
+            "enabled": true,
+            "url": "https://wa.me/57",
+            "openInNewTab": true
+          }
+        }
+      },
+      "order": 5,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Whatssap3D.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      }
     }
   },
   "spaces": {
