@@ -121,17 +121,6 @@
         "animationClip": "mixamo.com",
         "loop": true
       },
-<<<<<<< HEAD
-      "name": "model.glb",
-      "order": 2.730632276484772
-    },
-    "c38ba626-d263-4412-b7cd-aaed1b30ee0e": {
-      "id": "c38ba626-d263-4412-b7cd-aaed1b30ee0e",
-      "position": [
-        0,
-        0.5050774897352348,
-        0
-=======
       "name": "Avatar",
       "order": 0
     },
@@ -143,7 +132,6 @@
         0,
         1.51,
         -1.87
->>>>>>> 5c4106f3956877cb28fa49f5c222699c4f220f96
       ],
       "rotation": [
         0,
@@ -152,21 +140,6 @@
         1
       ],
       "scale": [
-<<<<<<< HEAD
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "bote"
-      },
-      "order": 4.452613807178687
-=======
         3,
         3,
         3
@@ -469,7 +442,6 @@
         "animationClip": "",
         "loop": true
       }
->>>>>>> 5c4106f3956877cb28fa49f5c222699c4f220f96
     }
   },
   "spaces": {
