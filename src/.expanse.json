@@ -261,7 +261,7 @@
     },
     "5dfb21b2-6cb7-488f-a948-c8244ddde410": {
       "id": "5dfb21b2-6cb7-488f-a948-c8244ddde410",
-      "name": "Ícono Instagram",
+      "name": "Mi Instagram",
       "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
       "position": [
         -0.25,
@@ -289,7 +289,7 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "social.png"
+          "asset": "assets/btn-ig-isa.png"
         },
         "transparent": true
       },
@@ -299,7 +299,7 @@
           "name": "Open URL 3D Object",
           "parameters": {
             "enabled": true,
-            "url": "https://www.instagram.com/",
+            "url": "https://www.instagram.com/isa_cd23/",
             "openInNewTab": true
           }
         }
@@ -308,7 +308,7 @@
     },
     "59b0ecb3-c591-4557-a1b9-831712559a7c": {
       "id": "59b0ecb3-c591-4557-a1b9-831712559a7c",
-      "name": "Ícono Portafolio",
+      "name": "Instagram Taka",
       "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
       "position": [
         0.0,
@@ -336,7 +336,7 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "portfolio.png"
+          "asset": "assets/btn-ig-taka.png"
         },
         "transparent": true
       },
@@ -346,7 +346,7 @@
           "name": "Open URL 3D Object",
           "parameters": {
             "enabled": true,
-            "url": "https://www.behance.net/",
+            "url": "https://www.instagram.com/taka_col/",
             "openInNewTab": true
           }
         }
@@ -355,7 +355,7 @@
     },
     "53da1d76-710c-4a77-94a9-dce79f7ef80b": {
       "id": "53da1d76-710c-4a77-94a9-dce79f7ef80b",
-      "name": "Ícono LinkedIn",
+      "name": "TikTok Taka",
       "parentId": "21c606ba-4129-47b0-bca5-9dc698b62e8f",
       "position": [
         0.25,
@@ -383,7 +383,7 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "linkedin.png"
+          "asset": "assets/btn-tiktok-taka.png"
         },
         "transparent": true
       },
@@ -393,7 +393,7 @@
           "name": "Open URL 3D Object",
           "parameters": {
             "enabled": true,
-            "url": "https://www.linkedin.com/",
+            "url": "https://www.tiktok.com/@takaa_col",
             "openInNewTab": true
           }
         }
@@ -428,7 +428,7 @@
           "name": "Open URL 3D Object",
           "parameters": {
             "enabled": true,
-            "url": "https://wa.me/57",
+            "url": "https://wa.me/573192545506",
             "openInNewTab": true
           }
         }
